@@ -1,0 +1,16 @@
+git init : khởi tạo repository
+Đẩy code từ local lên remote gồm 3 bước:
++ CHỌN: git add -A
++ XÁC NHẬN( tạo version): git commit -m " mesage "
++ ĐẨY CODE LẦN ĐẦU LÊN: git push -u origin master
++ ĐẨY LẦN 2 TRỞ ĐI: git push
+
+Kết nối giữa repo local và repo remote: git remote add origin https://gitlab.com/TuanThanhDTT/demo_my_git.git
+
+Xem các nhánh đã có: git branch -r
+Tạo nhánh mới: git checkout -b tenNhanh
+Chuyển sang nhánh đã có: git checkout tenNhanh
+
+Thành viên clone code : git clone (link https:clone)
+
+AI: https://chatbot.theb.ai/#/chat/1002V
